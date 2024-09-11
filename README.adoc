@@ -1,0 +1,25 @@
+= Todo SurrealDB
+
+== Purpose
+
+This is a simple POC, to evaluate SurrealDB and it's components
+
+== Actions
+
+Starting the docker image of SurrealDB with credentials root/root
+
+[source,shell]
+----
+docker compose up
+----
+
+Starting the application, Leptos with Server Side Rendering
+
+[source,shell]
+----
+cargo leptos serve
+----
+
+Access to the application:
+
+http://127.0.0.1:3000
